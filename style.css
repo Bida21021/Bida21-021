@@ -1,0 +1,1006 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.body{
+	background-color: #0000;
+}
+
+
+
+.navigation{
+	background-color: #333399;
+	padding: 10px ;
+	border-bottom: 1px solid lightsteelblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation >.logo{
+	margin-right: 50px;
+}
+nav{
+	display: inline-block;
+	
+}
+
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 15px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:18px ;
+	color: #ffffff;
+
+}
+nav ul li a:hover:not(.active){
+	text-decoration: none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color:#6699cc;
+	color: #ffffff;
+
+}
+nav .active{
+	text-decoration: none;
+	padding: 15px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:18px ;
+	color: #00ff00;
+
+}
+
+nav ul ul {
+	position: absolute;
+	top: 75px;
+	display: none;
+}
+nav ul ul li {
+font-size: 20px;
+width: 100px;
+padding: 0px;
+line-height: 10px;
+}
+nav ul li:hover > ul li{
+	display: flex;
+	flex-direction: column;
+	background: #3333ff;
+}
+nav ul li:hover > ul {
+	display: flex;
+	flex-direction: column;
+	background: #3333ff;
+}
+
+
+.container{
+	
+	margin: 0px 10px 0px;
+
+
+}
+
+.container > .div_1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url("./images/thumbnails/strange.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+
+	
+}
+.container > .div_1 >.home-cover{
+	width: 20%;
+	
+	background-color: rgba(0,0,0, 0.2);
+	z-index: 1;
+
+	justify-content: center;
+	display: flex;
+	border:1px solid #333399;
+	border-radius: 12px;
+	cursor: pointer;
+	transform: 2000ms ease-in-out;
+
+
+	
+}
+
+
+
+.container > .div_1 >.home-cover p {
+	
+	font-size: 27px;
+	color: #ffffff;
+	font-weight: 100;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+	
+	
+}
+
+.container > .div_1 img{
+	width: 100%;
+	height: 490px;
+	object-fit: cover;
+
+}
+
+.container > .div_1 >.div_1_title p{
+   font-size: 35px;
+   color: #ffffff;
+   padding: 0px 0px 15px;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+   
+}
+
+.container > .div_2 {
+	display: flex;
+	background-color: #000000;
+
+	
+}
+
+.container > .div_2 >.side-advert>.advert-action{
+	
+	border-left: 1px solid #3333ff;
+	width: 40%;
+	margin: 10px 0px 40px;
+	
+	
+}
+.container > .div_2 >.side-advert>.advert-action h3{
+	
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	
+	
+}
+.container > .div_2 >.side-advert{
+	display: flex;
+	flex-direction: column;
+	margin: 200px 5px 0px;
+	width: 30%;
+	
+	
+}
+
+
+.container > .div_2 >.side-advert>.advert img{
+	width: 90%;
+	height: 180px;
+	object-fit: cover;
+	padding: 12px 0px 12px;
+
+	
+}
+
+
+.container > .div_2 > .movies{
+	width: 70%;
+	padding-bottom: 10px;
+	
+}
+.container > .div_2 > .movies>.head{
+display: flex;
+justify-content: center;
+align-items: center;
+	
+}
+.container > .div_2 > .movies>.head img{
+width: 85px;
+height: 60px;
+	
+}
+.container > .div_2 > .movies>.head>.text h3{
+font-size: 26px;
+color: #ffffff;
+font-weight: 400;
+padding: 25px 20px 4px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.container > .div_2 > .movies>.head>.text h4{
+font-size: 17px;
+color: #e6e6ff;
+font-weight: 400;
+width: 60%;
+line-height: 25px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px 20px 20px;
+
+
+}
+
+.container > .div_2 > .movies > .premier{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.container > .div_2 > .movies > .premier>img{
+ width: 90%;
+ height: 395px;
+ border-radius: 12px;
+ margin: 20px;
+ object-fit: cover;
+}
+.container > .div_2 > .movies > .premier>.info{
+ margin: 20px;
+}
+.container > .div_2 > .movies > .premier>.movie-title{
+ color: #ffffff;
+ font-size: 24px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding: 10px;
+}
+.container > .div_2 > .movies > .info{
+ width: 40%;
+ color: #ffffff;
+}
+
+
+
+.container > .div_footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	padding: 15px 0px 5px;
+	border-top: 1px solid #e6e6ff;
+}
+.container > .div_footer>.updates >.header ul {
+	list-style: none;
+}
+.container > .div_footer>.updates >h3 {
+	font-size: 19px;
+	font-weight: 400;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 5px;
+	color: #3333ff;
+
+}
+.container > .div_footer> .movies> h3 {
+	font-size: 19px;
+	font-weight: 400;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 5px;
+	color: #3333ff;
+
+
+}
+.container > .div_footer>.movies >.promotions ul{
+	list-style: none;
+}
+
+
+.container >.div_footer> .updates> .header> ul li a{ text-decoration: none;color: #e6e6ff;}
+.container >.div_footer> .movies> .promotions> ul li a{ text-decoration: none;color: #e6e6ff;}
+
+.container > .div_footer>.updates >.header ul li {
+color: #e6e6ff;
+ font-size: 17px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-decoration: none;
+ padding: 10px;
+
+}
+.container > .div_footer>.movies >.promotions ul li {
+	
+	padding: 10px;
+	color: #e6e6ff;
+ font-size: 17px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-decoration: none;
+
+}
+.container > .div_footer>.updates >.header ul li a:hover{
+	color: lightslategray;
+ 
+}
+.container > .div_footer>.movies >.promotions ul li a:hover{
+
+	color: lightslategray;
+
+
+}
+.container > .div_footer>.find-us >.socials ul li{
+
+	padding: 10px;
+	color: #e6e6ff;
+	font-size: 17px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-decoration: none;
+
+}
+.container > .div_footer>.find-us h3{
+
+	font-size: 19px;
+	font-weight: 400;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding: 5px;
+	color: #3333ff;
+}
+.container > .div_footer>.find-us >.socials ul li a{
+
+	text-decoration: none;color: #e6e6ff;
+
+}
+.container > .div_footer>.find-us >.socials ul{
+
+	list-style: none;
+
+
+}
+.container > .div_footer>.find-us >.socials ul li a:hover{
+
+	color: lightslategray;
+
+
+}
+
+
+
+/*  Action page CSS styling*/
+
+
+.div-2-month{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 12px;
+
+
+}
+
+
+.div-2-month >.saturday {
+	width: 100%;
+
+
+}
+
+
+.div-2-month >.saturday >.info >.watch{
+	margin: 10px;
+	width: 100%;
+}
+.div-2-month >.saturday >.info >.watch p{
+	padding: 10px;
+}
+.div-2-month >.saturday >.info{
+	width: 30%;
+	margin: 10px;
+}
+
+.div-2-month >.saturday >.info h4{
+	border: 1px solid #3333ff;
+	border-radius: 10px;
+	color: #3333ff;
+	text-align: center;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+
+}
+
+
+
+.div-2-month >.saturday img{
+	width: 90%;
+	height: 320px;
+	object-fit: cover;
+	margin: 10px;
+	padding: 5px;
+
+}
+
+
+
+
+.heading-weekend{
+	width: 30%;
+}
+.heading-weekend h3{
+	font-family: Arial, Helvetica, sans-serif;
+	color: grey;
+	font-size: 18px;
+	padding: 12px;
+}
+
+
+
+/* Horror.html styling */
+
+.active-link{border-left: 4px solid #333399;
+margin: 12px 18px 15px;}
+.active-link h4{
+	padding: 10px;
+	color: gray;
+	font-size: 17px;
+}
+
+.container-2{
+	display: flex;
+	background-color: black;
+	margin: 0px 10px 0px;
+
+
+}
+.container-2>.div-1-horror{
+	width: 40%;
+	box-shadow: 9px 5px 12px rgba(0,0, 0, 0.1);
+	margin: 12px;
+	padding: 0px 12px 12px;
+	
+}
+.container-2>.div-1-horror> img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+
+}
+.container-2>.div-1-horror> .content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.container-2>.div-1-horror> .movie-name h3{
+	color:#ffffff;
+	font-size: 24px;
+	padding: 10px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+
+}
+.container-2>.div-1-horror> .movie-bio h1{
+	color:#ffffff;
+	line-height: 20px;
+	font-size: 16px;
+	padding: 15px 15px 20px;
+	font-weight: 600;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+
+}
+.container-2>.div-1-horror> .content>.cinema-info p{
+	font-size: 15px;
+	padding: 5px;
+	margin: 5px;
+	background-color: #3333ff;
+	border-radius: 12px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+.container-2>.div-1-horror> .content>.ticket >img{
+	object-fit: cover;
+	width: 60px;
+	height: 60px;
+	padding: 15px;
+	border-radius: 50%;
+	
+}
+.container-2>.div-1-horror> .content>.ticket {
+	width: 20%;
+	
+	
+}
+
+
+.container-2>.div-1-horror> .content>.cinema-value p{
+	font-size: 15px;
+	border-radius: 12px;
+	padding: 5px;
+	margin: 5px;
+	color: crimson;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+
+
+
+.div-2-popular{
+	background-color: #0001;
+	width: 100%;
+	margin: 0px 0px 0px;
+	justify-content: center;
+	align-items: center;
+	
+
+
+
+}
+.div-2-popular >.popular-wrap{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+.div-2-popular >.popular-wrap>.popular{
+	width: 100%;
+	background-color: #ffffff;
+	margin: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+.div-2-popular >.popular-wrap>.popular >.info{
+	width: 20%;
+	
+}
+.div-2-popular >.popular >.info> h3{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 25px;
+	color:crimson;
+	margin: 15px 20px 12px;
+	padding: 10px;
+	
+}
+.div-2-popular >.popular >.info> p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 17px;
+	color:gray;
+	padding: 10px;
+	margin: 15px 20px 30px;
+	width: 70%;
+	
+}
+
+
+
+
+.div-2-popular >.popular-wrap>.popular>.title{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.div-2-popular >.popular-wrap>.popular>.rating >img{
+	
+	width: 10px;
+	height:10px;
+	padding: 0px;
+}
+.div-2-popular >.popular-wrap>.popular> img{
+	width: 75%;
+	height:250px;
+	border-radius: 15px;
+	object-fit: cover;
+	padding: 10px;
+}
+
+
+
+/* Feedback page CSS styling*/
+
+.container-feedback{
+	margin: 0px 0px 0px;
+	width: 100%;
+	height: 450px;
+
+	background-image: url("./images/Cinema.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+.container-feedback >.feedback-section p{
+	color: #ffff;
+	z-index: 1;
+	padding: 12px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.form-section{
+	width: 100%;
+	box-shadow: 2px 6px 12px rgba(0,0, 0, 0.1);
+    background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 0px 20px;
+
+}
+
+
+form>label{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 17px;
+}
+
+form>input{
+	border: none;
+	background: none;
+	border-bottom: 1px solid #ffffff;
+	width: 350px;	
+}
+
+
+
+
+form> button{
+	background-color: #000000;
+	color: #3333ff;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 16px;
+	padding: 8px;
+	margin: 10px;
+	border: none;
+	cursor: pointer;
+}
+form> button:hover{
+	background-color: #333399;
+	color: #ffffff;
+
+}
+
+
+
+.QnA{
+	margin: 20px 0px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.QnA h1{
+font-size: 26px;
+color: #3333ff;
+padding: 15px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 12px 10px 40px;
+
+}
+
+
+.QnA>.questions {
+	font-size: 17px;
+	background-color: #333399;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 12px;
+	margin: 10px 0px 12px;
+	width: 90%;
+	
+}
+.QnA>.questions h2{
+	font-size: 17px;
+	width: 60%;
+	color: crimson;
+	font-weight: 100;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 12px;
+}
+.QnA>.questions h3{
+	font-size: 17px;
+	width: 60%;
+	color: #ffffff;
+	font-weight: 100;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 5px;
+}
+
+
+
+/*   upcoming.html styling   */
+
+.container-upcoming{
+	margin: 10px ;
+}
+.container-upcoming >.movies-action{
+	display: flex;
+	align-items: center;
+	background-color: black;
+	margin: 12px 0px 15px;
+}
+.container-upcoming >.movies-action >.movies-title{
+	
+
+	 background-color: #3333ff;
+	 margin: 0px 100px 10px;
+	 width: 40%;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+
+}
+
+.container-upcoming >.movies-action >.movies-title h3{
+	
+padding: 15px;
+color: #ffffff;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+
+
+/* Contacts page styling */
+
+
+.container-contact{
+	display: flex;
+	margin: 10px;
+	
+	
+}
+.container-contact>.assitance >.assistace-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 30px 0px 0px;
+	
+}
+.container-contact>.assitance >.assistace-flex >.contacts{
+	width: 30%;
+	background-color: #3333ff;
+	margin: 12px 20px 15px;
+	text-align: center;
+	
+}
+
+
+
+.container-contact>.assitance >.assistace-flex >.avatar-hr{
+	border-radius: 50%;
+	background-color: #ffffff;
+	border: 2px solid #3333ff;
+	box-shadow: 15px 6px 20px rgba(0,0, 0, 0.1);
+
+	margin: 0px 20px 0px;
+
+
+}
+.container-contact>.assitance .assistace-flex >h2{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+
+
+.container-contact>.assitance >.assistace-flex >.avatar-hr img{
+	border-radius: 50%;
+	padding: 12px;
+	width: 100px;
+	height: 100px;
+}
+
+
+.container-contact> .assitance>.office-agent{
+
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+    display: flex;
+
+	
+}
+.container-contact> .assitance>.office-agent img{
+
+	width: 90%;
+	height: 180px;
+	object-fit: cover;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 12px;
+
+}
+
+.container-contact> .assitance>.office-agent >.marketing{
+	display: flex;
+	border: 1px solid #3333ff;
+	margin: 30px 10px 25px ;
+	border-radius: 12px;
+
+}
+.container-contact> .assitance>.office-agent >.marketing>.worker h4{
+	margin: 10px;
+	color: crimson;
+}
+.container-contact> .assitance>.office-agent >.marketing>.worker h2{
+	margin: 10px;
+}
+
+
+/* Movie-Page CSS Styling*/
+
+
+.movies-2020{
+	background-color: #ffff;
+	box-shadow: 10px 12px 15px rgba(0,0, 0, 0.1);
+	width: 90%;
+	margin: 20px 10px 25px ;
+
+}
+
+.movies-2020 >.container-movies{
+	display: flex;
+	
+}
+ .movies-2020 >.container-movies> .title-movies{
+	width: 30%;
+	
+}
+ .movies-2020 >.container-movies> .movie-list{
+	margin: 12px;
+	
+}
+ .movies-2020 >.container-movies> .movie-list>.movie-name{
+	border: 1px solid crimson;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+ .movies-2020 >.container-movies> .movie-list>.movie-name >.details{
+margin: 10px;
+display: flex;
+	
+}
+ .movies-2020 >.container-movies> .movie-list>.movie-name > h2{
+padding: 12px;
+color: crimson;
+font-size: 17px;
+font-weight: 600;
+
+
+	
+}
+ .movies-2020 >.container-movies> .movie-list>.movie-name >.details p{
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 10px;
+color: #3333ff;
+	
+}
+
+
+.movies-2020 >.title-movies h4{
+	font-size: 23px;
+	color: crimson;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 12px;
+
+}
+
+
+
+/* Responsive styling for Mobile */
+
+
+
+@media (max-width:800px){
+	.navigation{
+		background-color: #333399;
+		padding: 10px ;
+		border-bottom: 1px solid lightsteelblue;
+		display: inline-block;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	
+	}
+
+	.navigation >.logo{
+		margin-right: 80%;
+		
+	}
+
+
+	nav ul li{
+		list-style: none;
+		display: block;
+		margin: 10px;
+		
+	}
+
+	nav ul{
+		width: 100%;
+	}
+
+
+	nav ul li a{
+		text-decoration: none;
+		padding: 5px;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-size:18px ;
+		color: #ffffff;
+		margin: 10px ;
+	
+	}
+
+	nav ul ul {
+	position: relative;
+	top: 10px;
+	right:12px ;
+	display: none;
+	margin: 10px 0px 15px;
+}
+nav ul ul li {
+font-size: 20px;
+width: 100px;
+padding: 0px;
+line-height: 10px;
+}
+
+.container > .div_2 {
+	display: flex;
+	flex-direction: column;
+
+	
+}
+
+.container > .div_2 >.side-advert{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.container > .div_2 >.side-advert>.advert {
+	width: 90%;
+
+
+	
+}
+.container > .div_2 >.side-advert>.advert img{
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	padding: 12px 0px 12px;
+
+	
+}
+.container > .div_2 > .movies{
+	width: 70%;
+	padding-bottom: 2px;
+	
+}
+
+
+
+}
